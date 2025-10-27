@@ -17,5 +17,6 @@ alias cl='clear'
 alias sp='sudo pacman'
 
 alias vim='nvim'
+alias neovim='nvim'
 
 PS1='\w '
