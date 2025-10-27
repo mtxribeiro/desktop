@@ -1,0 +1,39 @@
+{
+  "position": "bottom",
+
+  "modules-left": ["hyprland/workspaces",],
+  "modules-right": ["tray", "pulseaudio", "network", "clock"],
+
+  "hyprland/workspaces": {
+  },
+
+ "pulseaudio": {
+    "max-volume": 250,
+    "format": "{icon} ",
+    "format-muted": "  ",
+    "format-icons": {
+      "default": [" ", " ", " "]
+    },
+    "on-click": "hyprctl dispatch exec '[float; size 800 512; center] pavucontrol'",
+    "on-click-right": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
+  },
+
+ "network": {
+    "format-wifi": "  ",
+    "format-ethernet": "  ",
+    "format-disconnected": "No Signal ",
+    "format-alt": "{ipaddr} "
+  },
+
+  "clock": {
+    "format": "{:%d %b %H:%M}",
+    "interval": 1,
+  },
+
+  "tray": {
+    "icon-size": 13,
+    "spacing": 8,
+    "show-passive-items": false,
+    "expand": false
+  }
+}

@@ -1,0 +1,32 @@
+* {
+    font-family: "JetBrainsMono Nerd Font", FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin: -1px 2px 2px 2px;
+    padding: 0px;
+}
+
+window#waybar {
+    background: transparent;
+    border: none;
+    color: #ffffff;
+}
+
+#workspaces button {
+    margin: 0 0 -10 1;
+    background: transparent;
+    border: none;
+    color: #ffffff;
+}
+
+#workspaces button:hover {
+    box-shadow: none;
+}
+
+#clock {
+    margin-right: 10px;
+}
+
+#tray {
+    margin: 0px 6px 0px 0px;
+}
