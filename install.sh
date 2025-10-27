@@ -33,18 +33,16 @@ fc-cache -rv
 # Limpeza do cache do pacman
 sudo pacman -Scc --noconfirm
 
-# Copiando configurações do repositório
-REPO_DIR="$HOME/desktop"
+# Substitui o .bashrc do sistema pelo do repositório
+cp ~/desktop/.bashrc ~/.bashrc
 
-# .bashrc
-cp "$REPO_DIR/.bashrc" "$HOME/.bashrc"
+# Copia o conteúdo da .config do repositório para dentro da .config do sistema, sobrescrevendo arquivos existentes
+mkdir -p ~/.config
+cp -r ~/desktop/.config/* ~/.config/
 
-# .config
-cp -r "$REPO_DIR/.config" "$HOME/.config"
-
-# Wallpapers
-mkdir -p "$HOME/Imagens"
-cp -r "$REPO_DIR/Wallpapers" "$HOME/Imagens/"
+# Copia a pasta Wallpapers para Imagens, sobrescrevendo se já existir
+mkdir -p ~/Imagens
+cp -r ~/desktop/Wallpapers ~/Imagens/
 
 # Mensagem final
 echo -e "\n\033[1;32mInstalação concluída. Por favor, reinicie o sistema.\033[0m"
