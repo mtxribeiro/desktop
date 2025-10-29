@@ -16,5 +16,6 @@ mkdir -p ~/.config
 cp -r ~/desktop/.config/* ~/.config/
 mkdir -p ~/Imagens
 cp -r ~/desktop/Wallpapers ~/Imagens/
+xdg-user-dirs-update
 sudo pacman -Scc --noconfirm
 echo -e "\n\033[1;32mInstalação concluída. Por favor, reinicie o sistema.\033[0m"
