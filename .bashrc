@@ -16,9 +16,6 @@ alias cl='clear'
 
 alias sp='sudo pacman'
 
-alias vim='nvim'
-alias neovim='nvim'
-
 alias shutdown='shutdown now'
 
 PS1='\w '
