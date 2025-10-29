@@ -7,7 +7,7 @@ sudo pacman -S --needed --noconfirm \
   xdg-desktop-portal xdg-desktop-portal-hyprland xdg-user-dirs \
   polkit-gnome gnome-keyring \
   noto-fonts noto-fonts-emoji noto-fonts-cjk ttf-liberation ttf-firacode-nerd ttf-jetbrains-mono-nerd \
-  git base-devel flatpak zip unzip unrar mpv imv vim htop fastfetch \
+  git base-devel flatpak zip unzip unrar mpv imv vim fastfetch xfce4-taskmanager \
   hyprland hyprpaper waybar materia-gtk-theme pavucontrol thunar kitty firefox xed
 command -v yay &>/dev/null || (cd /tmp && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si --noconfirm && cd "$HOME" && rm -rf /tmp/yay)
 yay -S --needed --noconfirm hyprshot tofi
