@@ -9,11 +9,10 @@
 
  "pulseaudio": {
     "tooltip": false,
-    "max-volume": 250,
-    "format": "{icon} ",
-    "format-muted": "  ",
+    "format": "{icon}",
+    "format-muted": "",
     "format-icons": {
-      "default": [" ", " ", " "]
+      "default": ["", "", ""]
     },
     "on-click": "hyprctl dispatch exec '[float; size 800 512; center] pavucontrol'",
     "on-click-right": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
@@ -21,22 +20,18 @@
 
  "network": {
     "tooltip": false,
-    "format-wifi": "  ",
-    "format-ethernet": "  ",
-    "format-disconnected": "No Signal ",
-    "format-alt": "{ipaddr} "
+    "format-wifi": "",
+    "format-ethernet": "",
+    "format-disconnected": "",
   },
 
   "clock": {
     "tooltip": false,
     "format": "{:%d %b %H:%M}",
-    "interval": 1,
   },
 
   "tray": {
-    "icon-size": 13,
+    "icon-size": 14,
     "spacing": 8,
-    "show-passive-items": false,
-    "expand": false
   }
 }
