@@ -5,8 +5,18 @@
 }
 
 #waybar {
-    color: #ffffff;
-    background: transparent;
+    all:unset;
+}
+
+.modules-left {
+    margin: -6 0 2 8;
+}
+
+.modules-center {
+}
+
+.modules-right {
+    margin: -6 8 2 0;
 }
 
 #workspaces button {
