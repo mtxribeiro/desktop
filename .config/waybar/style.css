@@ -1,32 +1,30 @@
 * {
-    font-family: "JetBrainsMono Nerd Font", FontAwesome, Roboto, Helvetica, Arial, sans-serif;
-    font-size: 12px;
+    font-family: JetBrainsMono Nerd Font;
+    font-size: 12;
     font-weight: bold;
-    margin: -1px 2px 1px 2px;
-    padding: 0px;
 }
 
 window#waybar {
-    background: transparent;
-    border: none;
     color: #ffffff;
 }
 
 #workspaces button {
-    margin: 0 0 -5 1;
-    background: transparent;
-    border: none;
+    padding: 0 2;
     color: #ffffff;
 }
 
-#workspaces button:hover {
-    box-shadow: none;
+#clock {
+    padding: 0 10;
 }
 
-#clock {
-    margin-right: 10px;
+#network {
+    padding: 0 8 0 6;
+}
+
+#pulseaudio {
+    padding: 0 10 0 0;
 }
 
 #tray {
-    margin: 0px 6px 0px 0px;
+    padding: 0 12;
 }
