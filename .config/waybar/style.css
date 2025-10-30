@@ -24,8 +24,12 @@
     color: #B0B0B0;
 }
 
+#workspaces button:hover {
+    background: none;
+}
+
 #workspaces button.active {
-  color: #ffffff;
+    color: #ffffff;
 }
 
 #clock {
