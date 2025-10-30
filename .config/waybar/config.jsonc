@@ -4,7 +4,7 @@
   "modules-left": ["hyprland/workspaces",],
   "modules-right": ["tray", "pulseaudio", "network", "clock"],
 
-  "hyprland/workspaces": {
+  "workspaces": {
   },
 
  "pulseaudio": {
