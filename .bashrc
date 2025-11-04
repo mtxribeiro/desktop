@@ -16,6 +16,4 @@ alias cl='clear'
 
 alias sp='sudo pacman'
 
-alias shutdown='shutdown now'
-
 PS1='\w '
