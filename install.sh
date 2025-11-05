@@ -8,9 +8,9 @@ sudo pacman -S --needed --noconfirm \
   polkit-gnome gnome-keyring \
   noto-fonts{,-emoji,-cjk} ttf-liberation ttf-jetbrains-mono-nerd \
   base-devel flatpak zip unzip unrar mpv imv vim pavucontrol \
-  hyprland hyprpaper waybar materia-gtk-theme kitty pcmanfm gvfs
+  hyprland hyprpaper waybar materia-gtk-theme kitty firefox pcmanfm gvfs
 command -v yay &>/dev/null || (cd /tmp && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si --noconfirm)
-yay -S --needed --noconfirm hyprshot tofi zen-browser-bin
+yay -S --needed --noconfirm hyprshot tofi
 cp ~/desktop/.bashrc ~/.bashrc
 mkdir -p ~/.config
 cp -r ~/desktop/.config/* ~/.config/
