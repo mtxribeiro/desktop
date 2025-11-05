@@ -9,7 +9,7 @@ sudo pacman -S --needed --noconfirm \
   noto-fonts{,-emoji,-cjk} ttf-liberation ttf-jetbrains-mono-nerd \
   base-devel flatpak zip unzip unrar mpv imv vim pavucontrol \
   hyprland hyprpaper waybar materia-gtk-theme kitty thunar gvfs
-command -v yay &>/dev/null || (cd /tmp && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si --noconfirm && cd "$HOME" && rm -rf /tmp/yay)
+command -v yay &>/dev/null || (cd /tmp && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si --noconfirm)
 yay -S --needed --noconfirm hyprshot tofi zen-browser-bin
 cp ~/desktop/.bashrc ~/.bashrc
 mkdir -p ~/.config
