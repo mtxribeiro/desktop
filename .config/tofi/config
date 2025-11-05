@@ -4,7 +4,7 @@ horizontal = true
 height = 30
 
 # Padding
-padding-top =  8
+padding-top =  9
 padding-bottom = 0
 padding-left = 8
 padding-right = 0
