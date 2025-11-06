@@ -7,7 +7,7 @@ sudo pacman -S --needed --noconfirm \
   xdg-desktop-portal-hyprland xdg-user-dirs \
   polkit-gnome gnome-keyring \
   noto-fonts{,-emoji,-cjk} ttf-liberation ttf-jetbrains-mono-nerd \
-  base-devel flatpak zip unzip unrar mpv imv vim ufw pavucontrol \
+  base-devel flatpak zip unzip unrar mpv imv vim pavucontrol \
   hyprland hyprpaper waybar materia-gtk-theme kitty pcmanfm gvfs
 command -v yay &>/dev/null || (cd /tmp && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si --noconfirm)
 yay -S --needed --noconfirm hyprshot tofi brave-bin
